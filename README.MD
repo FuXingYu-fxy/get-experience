@@ -9,9 +9,9 @@
 
 # 功能截图
 
-![image-20210815173245755](https://github.com/FuXingYu-fxy/get-experience/blob/master/image-20210815173245755.png)
+![image-20210815173245755](./image-20210815173245755.png)
 
-![image-20210815173408828](https://github.com/FuXingYu-fxy/get-experience/blob/master/image-20210815173408828.png)
+![image-20210815173408828](./image-20210815173408828.png)
 
 # 使用方法
 
@@ -26,11 +26,11 @@
 
 部分面经会出现这种情况
 
-![image-20210815192140320](https://github.com/FuXingYu-fxy/get-experience/blob/master/image-20210815192140320.png)
+![image-20210815192140320](./image-20210815192140320.png)
 
 查看DOM结构发现是这样的
 
-![image-20210815192334973](https://github.com/FuXingYu-fxy/get-experience/blob/master/image-20210815192334973.png)
+![image-20210815192334973](./image-20210815192334973.png)
 
 问题出在 DocumentHandler.parseHtml() 这个函数：
 
@@ -38,7 +38,7 @@
 
 这样最外层的数组的格式就是这样
 
-![image-20210815193203119](https://github.com/FuXingYu-fxy/get-experience/blob/master/image-20210815193203119.png)
+![image-20210815193203119](./image-20210815193203119.png)
 
 然而个别面经的分段标记是 p、br 等等
 
